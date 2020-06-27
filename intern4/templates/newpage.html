@@ -100,7 +100,6 @@
 $('#like_button').click(function insert_like() {
   $.ajax({
     type: 'post',
-    url: 'count.php',
     data: {
       post_like: "like"
     },
@@ -117,7 +116,6 @@ $('#like_button').click(function insert_like() {
 $('#dislike_button').click(function insert_dislike() {
   $.ajax({
     type: 'post',
-    url: 'count.php',
     data: {
       post_dislike: "dislike"
     },
